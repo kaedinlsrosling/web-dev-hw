@@ -1,1 +1,4 @@
-
+The web is different than the internet, because the internet is a global network of networks, while the web is a collection of information which is accessed by the internet. The web is a service of the internet.
+The internet works, first by using a device to open a web browser to connect to a website. Your device then sends an electronic request over your internet connection to your service provider. Then they route the request to eventually reach a domain name server. Once a match has been found the server will respond by sending "packets" which are parts of files ranging in different sizes. Each packet will then travel back to your device for you to see. 
+A directory is a location for storing files on your computer, also know as "folders". The relationship between a directory and files are that files store data and directories(folders) store files.
+Using a VCS is beneficial because its less risky and it is also faster and more efficient. VCS also helps you understand how versions of your projects are different.
