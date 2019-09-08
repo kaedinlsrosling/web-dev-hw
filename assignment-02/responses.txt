@@ -1,0 +1,4 @@
+Data travels through the internet in packets, which are directed by an IP address. Packets travel from one machine to another until they reach there destination.
+An IP address is an address given to a computer to identify it on a network. A DNS is used to convert the domain name used by humans into IP addresses for the computers.
+Cookies are files that are on your computers that are created when you visit a website. They store information from your visit of that site and web servers send them to your web browser.
+The protocol, the domain name and the path.
