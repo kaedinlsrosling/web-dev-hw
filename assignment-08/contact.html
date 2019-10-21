@@ -7,31 +7,12 @@
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <style>
-      div {
-         background-color: lightgray;
-       }
-       .half-size {
-         width: 50%;
-       }
-       .middle {
-         margin: auto;
-       }
-       .padded {
-         padding: 20px;
-       }
-      body {
-         background-image: url("./images/star-bg.png");
-       }
-       .behind-text {
-         background-color: white;
-       }
-       .padded {
-         background-color: white;
-         padding: 20px;
-       }
+      .page-block {background: orange;}
+      .centered {text-align: center;}
+      .first-line {font-style: italic;}
       img {
         width: 50px;
-        float: left;
+        float: center;
        }
     </style>
   </head>
@@ -43,22 +24,23 @@
         <li><a href="./index.html">Home</a></li>
         <li><a href="./about.html">About</a></li>
      </ul>
+    </nav>
     <form action="http://www.example.com/subscribe.php" method="get" id="subscribe-form" class="basic-forms">
     <!-- This is where the related form elements and controls will appear. -->
     <h2>If you have any question or comments, or you would like to learn more recipes or crafts, please reach out to us!</h2>
-    <div id="name-block" class="page-block">
-      <h3 class="centered">Full Name:</h3>
-      <p><input type="text" name="First Name Last Name" id="username_input" /></p>
-    
-      Email:
-      <input type="email" name="example@email.com" id="test-text" />
-    </p>
-    <p>
-      Comments or Concerns:
-      <textarea name="comments" id="test-textarea"></textarea>
-    </p>
-    <input type="submit" name="submit" value="Submit" />
+      <div id="name-block" class="page-block">
+        <h3 class="centered">Full Name:</h3>
+        <input type="text" name="name" id="username_input" />
+      </div>
+      <div id="name-block" class="page-block">
+        <h3 class="centered">Email:</h3>
+        <input type="email" name="email" id="test-text" />
+      </div>
+      <div id="name-block" class="page-block">
+        <h3 class="centered">Comments or Concerns:</h3>
+        <textarea name="comments" id="test-textarea"></textarea>
+        <input type="submit" name="submit" value="Submit" />
+      </div>
     </form>
-   </nav>
-  </body>
+</body>
 </html>
