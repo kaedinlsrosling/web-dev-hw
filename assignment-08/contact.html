@@ -5,7 +5,7 @@
     <meta name= "author" content="Kaedin Rosling">
     <meta name="description" content="">
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Contact</title>
     <style>
       div {
          background-color: lightgray;
@@ -37,11 +37,28 @@
   </head>
 
   <body>
+    <h1>Contact Us!</h1>
     <nav id="main">
      <ul>
         <li><a href="./index.html">Home</a></li>
         <li><a href="./about.html">About</a></li>
      </ul>
+    <form action="http://www.example.com/subscribe.php" method="get" id="subscribe-form" class="basic-forms">
+    <!-- This is where the related form elements and controls will appear. -->
+    <h2>If you have any question or comments, or you would like to learn more recipes or crafts, please reach out to us!</h2>
+    <div id="name-block" class="page-block">
+      <h3 class="centered">Full Name:</h3>
+      <p><input type="text" name="First Name Last Name" id="username_input" /></p>
+    
+      Email:
+      <input type="email" name="example@email.com" id="test-text" />
+    </p>
+    <p>
+      Comments or Concerns:
+      <textarea name="comments" id="test-textarea"></textarea>
+    </p>
+    <input type="submit" name="submit" value="Submit" />
+    </form>
    </nav>
   </body>
 </html>
