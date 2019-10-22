@@ -1,4 +1,4 @@
-Briefly recap your experience learning HTML. What was old, new, interesting, or difficult to learn?
+It got a little more difficult to me when we incorporated forms and all the input elements. It seems to me that the inputs are interchangeable and kind of confuse me. Its interesting how there are all kinds of different ways to style pages.
 
 The only thing that I'm nervous about as we begin learning CSS is managing all of the different ways you can style HTML and remembering how to properly code those styles. But I am also excited to learn the different ways you can style HTML and how you can add a lot of detail and effects to a website.  
 
