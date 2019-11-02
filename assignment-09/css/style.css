@@ -1,0 +1,37 @@
+body {
+  background-image: url("./images/graphic-3.jpg");
+}
+div {
+  background-color:#F2D8B3;
+}
+middle {
+  margin:auto;
+}
+half-size {
+  width:50%;
+}
+padded {
+  padding:2px;
+}
+img {
+  width: 40%;
+  margin:auto;
+}
+h1 {
+  color:#D76735;
+  font-family:;
+  font-size: 200%;
+  text-align: center;
+}
+h2 {
+  color:#FBD266;
+  font-family:georgia;
+  font-size: 100%;
+  text-align: center;
+}
+h3 {
+  color:#8FB0A9;
+  font-family:courier;
+  font-size: 50%;
+  text-align: center;
+}
