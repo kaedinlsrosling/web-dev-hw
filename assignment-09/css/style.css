@@ -16,22 +16,23 @@ padded {
 img {
   width: 40%;
   margin:auto;
+  align: center;
 }
 h1 {
   color:#D76735;
-  font-family:;
-  font-size: 200%;
+  font-family: fantasy;
+  font-size: 300%;
   text-align: center;
 }
 h2 {
   color:#FBD266;
   font-family:georgia;
-  font-size: 100%;
+  font-size: 150%;
   text-align: center;
 }
 h3 {
   color:#8FB0A9;
   font-family:courier;
-  font-size: 50%;
+  font-size: 75%;
   text-align: center;
 }
