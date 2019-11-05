@@ -2,27 +2,31 @@
 .main-container {
     border-style: solid;
     border-width: 2px;
-    border-color: limegreen;
+    border-color: white;
     padding: 10px;
-    background: #373E42;
+    background: #F2D8B3;
+    opacity: 2;
 }
 /* Select all h1 elements. */
 h1 {
+    color: #D76735;
     border-style: solid;
     border-width: 2px;
-    border-color: orange;
-    background: #f1f1f1;
+    border-color: white;
 }
 /* Select ALL paragraph elements. */
 p {
+    color: #8FB0A9;
     border-style: solid;
     border-width: 2px;
-    border-color: gold;
-    background: #f1f1f1;
+    border-color: white;
 }
 hr {
   margin: 30px 0;
 }
-center {
+image {
   image-orientation: center;
+}
+text {
+  text-align: center;
 }
