@@ -15,6 +15,18 @@ h1 {
     border-width: 2px;
     border-color: white;
 }
+h2 {
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+h3 {
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
 #yellow {
   color: #FBD266;
 }
