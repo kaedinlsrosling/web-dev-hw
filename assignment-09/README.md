@@ -1,5 +1,6 @@
 Describe the difference between the universal, element, class, and id selector types. When might you choose one over the other to style content?
+The universal selector is used to style every element on a page and is shown by an asterisk. The element selector is used to select all elements of a certain type. This selector is applied by simply using an element name such as p for paragraph or h1 for heading 1. Class names are shown by class="" and are also used to style elements. To select class elements, insert a dot (.) in the front of the class name in the CSS. Like the class selector, the ID allows style rules to be defined for a specific element by its unique ID. It is followed by a #.
 
-Briefly discuss your color palette, including the 3 colors you chose. List their color names, rgb values, or hex codes.
+The first color I chose was a yellow with the rgb values(251, 210, 102) and hex code #FBD266. The second color I chose was a blue-green with the rgb values(143, 176, 169) and hex code #8FB0A9. The third color I chose was a orange with the rgb values(215, 103, 53) and hex code #D76735.
 
-Free Response: Summarize your work cycle for this assignment.
+I created my assignment 9 folder and added an index.html and style.css. I added the 4 main document elements and 4 meta elements to the index.html. I then added a link element in the head, linking the style.css to the index.html. I included many divs and classes in my css. I added 3 images, included text summarizing the 70's and used a color palette from the 70s.
