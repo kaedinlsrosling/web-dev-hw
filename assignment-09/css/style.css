@@ -1,9 +1,7 @@
 body {
   background-image: url("./images/graphic-3.jpg");
-  border-style: solid;
-  border-width: 2px;
-  border-color: white;
 }
+/* Select all paragraph elements. */
 p {
   border-style: solid;
   border-width: 2px;
