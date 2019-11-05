@@ -1,34 +1,28 @@
-body {
-  background-image: url("./images/graphic-3.jpg");
-  position: absolute;
+/* Select the main container 'div' element */
+.main-container {
+    border-style: solid;
+    border-width: 2px;
+    border-color: limegreen;
+    padding: 10px;
+    background: #373E42;
 }
-/* Select all paragraph elements. */
-p {
-  border-style: solid;
-  border-width: 2px;
-  border-color: white;
-  padding: 10px;
-  background: #F2D8B3
-  opacity: 2;
-}
-/* Select all heading 1 elements. */
+/* Select all h1 elements. */
 h1 {
-  color:#D76735;
-  font-family: fantasy;
-  font-size: 300%;
-  text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: orange;
+    background: #f1f1f1;
 }
-/* Select all heading 2 elements. */
-h2 {
-  color:#FBD266;
-  font-family:georgia;
-  font-size: 150%;
-  text-align: center;
+/* Select ALL paragraph elements. */
+p {
+    border-style: solid;
+    border-width: 2px;
+    border-color: gold;
+    background: #f1f1f1;
 }
-/* Select all heading 3 elements. */
-h3 {
-  color:#8FB0A9;
-  font-family:courier;
-  font-size: 100%;
-  text-align: center;
+hr {
+  margin: 30px 0;
+}
+center {
+  image-orientation: center;
 }
