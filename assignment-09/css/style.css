@@ -16,22 +16,18 @@ h1 {
     border-color: white;
 }
 h2 {
+    color: #FBD266;
     text-align: center;
     border-style: solid;
     border-width: 2px;
     border-color: white;
 }
 h3 {
+    color: #8FB0A9;
     text-align: center;
     border-style: solid;
     border-width: 2px;
     border-color: white;
-}
-#yellow {
-  color: #FBD266;
-}
-#blue {
-  color: #8FB0A9
 }
 hr {
   margin: 30px 0;
