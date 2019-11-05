@@ -10,6 +10,7 @@
 /* Select all h1 elements. */
 h1 {
     color: #D76735;
+    text-align: center;
     border-style: solid;
     border-width: 2px;
     border-color: white;
@@ -17,6 +18,7 @@ h1 {
 /* Select ALL paragraph elements. */
 p {
     color: #8FB0A9;
+    text-align: center;
     border-style: solid;
     border-width: 2px;
     border-color: white;
@@ -26,7 +28,4 @@ hr {
 }
 image {
   image-orientation: center;
-}
-text {
-  text-align: center;
 }
