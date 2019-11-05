@@ -1,5 +1,6 @@
 body {
   background-image: url("./images/graphic-3.jpg");
+  position: absolute;
 }
 /* Select all paragraph elements. */
 p {
@@ -8,33 +9,23 @@ p {
   border-color: white;
   padding: 10px;
   background: #F2D8B3
+  opacity: 2;
 }
-middle {
-  margin:auto;
-}
-half-size {
-  width:50%;
-}
-padded {
-  padding:2px;
-}
-img {
-  width: 40%;
-  margin:auto;
-  align: center;
-}
+/* Select all heading 1 elements. */
 h1 {
   color:#D76735;
   font-family: fantasy;
   font-size: 300%;
   text-align: center;
 }
+/* Select all heading 2 elements. */
 h2 {
   color:#FBD266;
   font-family:georgia;
   font-size: 150%;
   text-align: center;
 }
+/* Select all heading 3 elements. */
 h3 {
   color:#8FB0A9;
   font-family:courier;
