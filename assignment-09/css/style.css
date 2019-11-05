@@ -1,8 +1,8 @@
 body {
   background-image: url("./images/graphic-3.jpg");
 }
-div {
-  background-color:red;
+square {
+  background-color: #F2D8B3;
 }
 middle {
   margin:auto;
