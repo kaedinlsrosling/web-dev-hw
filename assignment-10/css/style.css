@@ -1,0 +1,44 @@
+h1 {
+  font-family: 'Lora','';
+  font-size: 72pt;
+  font-weight: normal;
+  color:
+  text-align: center;
+}
+h2 {
+  font-family: 'Lora','Merriweather';
+  font-size: 48pt;
+  font-weight: normal;
+  color:
+  text-align: center;
+}
+h3 {
+  font-family: 'Rubik','Karla';
+  font-size: 18pt;
+  font-weight: bold;
+  color:
+  text-transform: uppercase;
+  text-align: center;
+}
+h4 {
+  font-family: 'Rubik','Karla';
+  font-size: 18pt;
+  font-weight: normal;
+  font-style: italic;
+  color:
+  text-align: center;
+}
+.main-content {
+  font-family: 'Rubik','Karla';
+  font-size: 18pt;
+  font-weight: lighter;
+  color:
+  line-height: 2;
+  text-align: center;
+  text-indent: -1.5em;
+}
+.main-content p:first-child::first-letter {
+   font-family: 'Kumar One Outline', cursive;
+   font-size: 24pt;
+   font-weight: bold;
+}
