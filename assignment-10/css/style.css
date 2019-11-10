@@ -2,14 +2,14 @@ body {
    background-color: #a5d2cf;
 }
 h1 {
-  font-family: 'Brandy','';
+  font-family: 'Antique Cherry','Lobster';
   font-size: 72pt;
   font-weight: normal;
   color:
   text-align: center;
 }
 h2 {
-  font-family: 'Lora','Merriweather';
+  font-family: 'Helvetica Light','Gotham Book';
   font-size: 48pt;
   font-weight: normal;
   color: #ffffff;
@@ -19,7 +19,7 @@ h2 {
   background opacity: 0.5;
 }
 h3 {
-  font-family: 'Rubik','Karla';
+  font-family: 'League Gothic','Bebas Neue';
   font-size: 18pt;
   font-weight: bold;
   color:
@@ -27,7 +27,7 @@ h3 {
   text-align: center;
 }
 h4 {
-  font-family: 'Rubik','Karla';
+  font-family: 'Didot','Baskerville';
   font-size: 18pt;
   font-weight: normal;
   font-style: italic;
@@ -35,7 +35,7 @@ h4 {
   text-align: center;
 }
 .main-content {
-  font-family: 'Rubik','Karla';
+  font-family: 'Didot','Baskerville';
   font-size: 18pt;
   font-weight: lighter;
   color: #ffffff;
