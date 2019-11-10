@@ -1,5 +1,8 @@
+body {
+   background-color: #a5d2cf;
+}
 h1 {
-  font-family: 'Lora','';
+  font-family: 'Brandy','';
   font-size: 72pt;
   font-weight: normal;
   color:
@@ -9,8 +12,11 @@ h2 {
   font-family: 'Lora','Merriweather';
   font-size: 48pt;
   font-weight: normal;
-  color:
+  color: #ffffff;
   text-align: center;
+  padding: 2pt;
+  background-color: #000000;
+  background opacity: 0.5;
 }
 h3 {
   font-family: 'Rubik','Karla';
@@ -32,10 +38,12 @@ h4 {
   font-family: 'Rubik','Karla';
   font-size: 18pt;
   font-weight: lighter;
-  color:
+  color: #ffffff;
   line-height: 2;
   text-align: center;
   text-indent: -1.5em;
+  padding: 2pt;
+  background-color: #ec3642;
 }
 .main-content p:first-child::first-letter {
    font-family: 'Kumar One Outline', cursive;
