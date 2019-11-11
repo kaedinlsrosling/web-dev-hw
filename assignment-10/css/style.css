@@ -1,5 +1,5 @@
 body {
-   background-color: #a5d2cf;
+  background-color: #a5d2cf;
 }
 h1 {
   font-family: 'dancing script', 'satisfy', cursive;
@@ -9,9 +9,9 @@ h1 {
   text-align: center;
 }
 h2 {
-  font-family: 'oswald', 'anton', sans-serif;
+  font-family: 'century gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
   font-size: 36pt;
-  font-weight: normal;
+  font-weight: lighter;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
@@ -48,10 +48,14 @@ h4 {
   background-color: #ec3642;
 }
 .main-content p:first-child::first-letter {
-   font-family: 'Kumar One Outline', cursive;
-   font-size: 18pt;
-   font-weight: bold;
+  font-family: 'Kumar One Outline', cursive;
+  font-size: 18pt;
+  font-weight: bold;
 }
 a:hover {
-   color: #1CCDCA;
-   font-style: italic;
+  color: #1CCDCA;
+  font-style: italic;
+}
+.half-size {
+  width: 50%;
+}
