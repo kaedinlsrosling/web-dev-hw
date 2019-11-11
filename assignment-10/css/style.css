@@ -22,7 +22,7 @@ h2 {
 h3 {
   font-family:'Lato', sans-serif;
   font-size:36pt;
-  font-weight: bold;
+  font-weight: black 900;
   color: #000000;
   text-transform: uppercase;
   text-align: center;
@@ -40,7 +40,7 @@ p {
 .main-content {
   align-items: center;
   font-family:'Lato', sans-serif;
-  font-size: 12pt;
+  font-size: 16pt;
   font-weight: lighter 300;
   color: #ffffff;
   line-height: 2;
@@ -50,7 +50,7 @@ p {
 }
 p::first-letter{
   font-family:'Playfair Display', serif;
-  font-size: 18pt;
+  font-size: 24pt;
   font-weight: black 900;
 }
 a:hover {
