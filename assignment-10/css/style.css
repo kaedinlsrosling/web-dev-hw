@@ -2,10 +2,12 @@ body {
   background-color: #a5d2cf;
 }
 h1 {
-  font-family: 'Lucida Bright', 'Georgia', serif;
+  font-family: 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
   font-size: 72pt;
   font-weight: normal;
   color:
+  text-transform:capitalize;
+  text-transform: uppercase;
   text-align: center;
 }
 h2 {
