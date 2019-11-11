@@ -49,7 +49,7 @@ p {
   padding: 10pt;
   background-color: #ec3642;
 }
-.main-content p:first-child::first-line{
+.main-content p:first-child::first-letter{
   font-family:'Playfair Display', serif;
   font-size: 18pt;
   font-weight: black;
