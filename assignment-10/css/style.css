@@ -49,10 +49,10 @@ p {
   padding: 10pt;
   background-color: #ec3642;
 }
-.main-content p:first-child::first-line::first-letter{
+.main-content p:first-child::first-line{
   font-family:'Playfair Display', serif;
   font-size: 18pt;
-  font-weight: bold;
+  font-weight: black;
 }
 a:hover {
   color: #ec3642;
