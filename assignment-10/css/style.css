@@ -2,7 +2,7 @@ body {
   background-color: #a5d2cf;
 }
 h1 {
-  font-family: 'dancing script', 'satisfy', cursive;
+  font-family: 'Lucida Bright', 'Georgia', serif;
   font-size: 72pt;
   font-weight: normal;
   color:
@@ -34,6 +34,9 @@ h4 {
   font-style: italic;
   color:
   text-transform: ;
+  text-align: center;
+}
+p {
   text-align: center;
 }
 .main-content {
