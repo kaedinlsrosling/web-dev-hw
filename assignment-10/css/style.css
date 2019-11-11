@@ -2,12 +2,11 @@ body {
   background-color: #a5d2cf;
 }
 h1 {
-  font-family:'Mansalva', cursive;
+  font-family:'Playfair Display', serif;
   font-size: 72pt;
-  font-weight: normal 400;
+  font-weight: black 900;
   color: #000000;
-  font-style: ;
-  text-transform: uppercase;
+  font-style: italic;
   text-align: center;
 }
 h2 {
@@ -49,7 +48,7 @@ p {
   padding: 10pt;
   background-color: #ec3642;
 }
-.main-content p::first-letter{
+p::first-letter{
   font-family:'Playfair Display', serif;
   font-size: 18pt;
   font-weight: black 900;
