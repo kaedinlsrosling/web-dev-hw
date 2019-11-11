@@ -12,7 +12,7 @@ h1 {
 }
 h2 {
   font-family: 'century gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
-  font-size: 36pt;
+  font-size: 30pt;
   font-weight: lighter;
   color: #ffffff;
   text-align: center;
@@ -51,13 +51,13 @@ p {
   padding: 10pt;
   background-color: #ec3642;
 }
-.main-content p:first-child::first-letter {
-  font-family: 'Kumar One Outline', cursive;
+.main-content p:first-child::first-line::first-letter{
+  font-family: 'Bodoni MT','Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
   font-size: 18pt;
   font-weight: bold;
 }
 a:hover {
-  color: #1CCDCA;
+  color: #ec3642;
   font-style: italic;
 }
 .half-size {
