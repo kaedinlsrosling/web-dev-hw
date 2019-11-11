@@ -47,8 +47,7 @@ p {
   color: #ffffff;
   line-height: 2;
   text-align: center;
-  text-indent: -1.5em;
-  padding: 2pt;
+  padding: 10pt;
   background-color: #ec3642;
 }
 .main-content p:first-child::first-letter {
@@ -61,7 +60,7 @@ a:hover {
   font-style: italic;
 }
 .half-size {
-  width: 50%;
+  width: 75%;
 }
 .middle {
   margin: auto;
