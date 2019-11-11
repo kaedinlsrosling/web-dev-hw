@@ -63,3 +63,6 @@ a:hover {
 .half-size {
   width: 50%;
 }
+.middle {
+  margin: auto;
+}
