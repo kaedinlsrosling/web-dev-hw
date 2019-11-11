@@ -2,24 +2,25 @@ body {
    background-color: #a5d2cf;
 }
 h1 {
-  font-family: 'Antique Cherry','Lobster';
+  font-family: 'dancing script';
   font-size: 72pt;
   font-weight: normal;
   color:
   text-align: center;
 }
 h2 {
-  font-family: 'Helvetica Light','Gotham Book';
-  font-size: 48pt;
+  font-family: 'century gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+  font-size: 36pt;
   font-weight: normal;
   color: #ffffff;
   text-align: center;
+  text-transform: uppercase;
   padding: 2pt;
   background-color: #000000;
   background opacity: 0.5;
 }
 h3 {
-  font-family: 'League Gothic','Bebas Neue';
+  font-family: 'century gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
   font-size: 18pt;
   font-weight: bold;
   color:
@@ -27,16 +28,17 @@ h3 {
   text-align: center;
 }
 h4 {
-  font-family: 'Didot','Baskerville';
+  font-family: 'Georgia', 'Times', 'Times New Roman', serif;
   font-size: 18pt;
   font-weight: normal;
   font-style: italic;
   color:
+  text-transform: ;
   text-align: center;
 }
 .main-content {
-  font-family: 'Didot','Baskerville';
-  font-size: 18pt;
+  font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+  font-size: 12pt;
   font-weight: lighter;
   color: #ffffff;
   line-height: 2;
@@ -47,7 +49,7 @@ h4 {
 }
 .main-content p:first-child::first-letter {
    font-family: 'Kumar One Outline', cursive;
-   font-size: 24pt;
+   font-size: 18pt;
    font-weight: bold;
 }
 a:hover {
