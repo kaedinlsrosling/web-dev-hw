@@ -1,0 +1,39 @@
+.parent-container {
+  width: 100%;
+  min-width: 400px;
+  max-width: 600px;
+  height: 100%;
+  border: ;
+  padding: 10px;
+  margin: 10px;
+  background-color: ;
+}
+.parent-container h1 {
+  font-size: x-large;
+  font-weight: bolder;
+  font-style: ;
+}
+.parent-container h2 {
+  font-size: x-large;
+  font-weight: bolder;
+  font-style: ;
+}
+.inner-box {
+  width: ;
+  height: ;
+  border: ;
+  padding: 20px;
+  margin: 50%;
+  background-color: ;
+}
+.outer-box {
+  width: ;
+  height: ;
+  border: ;
+  padding: 20px;
+  margin: 50%;
+  background-color: ;
+}
+div {
+    border: 2px double #623529;
+}
