@@ -23,7 +23,9 @@
   height: 50px;
   border: ;
   padding: 20px;
-  margin: ;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   background-color: ;
 }
 .outer-box {
@@ -31,7 +33,9 @@
   height: ;
   border: ;
   padding: 20px;
-  margin: ;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   background-color: ;
 }
 div {
