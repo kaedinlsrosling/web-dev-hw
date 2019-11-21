@@ -1,6 +1,6 @@
 header {
     position: fixed;
-    background-color: #d0d0d0;
+    background-color: #8B0000;
     font-family: sans-serif;
     font-size: 12pt;
     text-align: center;
@@ -8,11 +8,11 @@ header {
     padding: ;
 }
 .menu-item a {
-    color: #fff;
+    color: #F08080;
     text-decoration: none;
 }
 .menu-item:hover {
-    background-color: #1CCDCA;
+    background-color: #ADD8E6;
 }
 .dropdown {
     display: inline-block;
@@ -40,13 +40,13 @@ header {
     min-width: 5.9em;
 }
 .dropdown-item:hover, .dropdown-item:hover a {
-    color: #baf0ef;
-    background-color: #a2a2a2;
+    color: #000000;
+    background-color: #ffffff;
 }
 .site-name {
     float: left;
     padding-right: 1em;
-    color: #1CCDCA;
+    color: #CD5C5C;
 }
 .site-brand {
    margin-bottom: 2em;
@@ -59,7 +59,7 @@ header {
   border: ;
   padding: 15em;
   margin: 1em;
-  background-color: ;
+  background-color: #ADD8E6;
 }
 .main-container h1 {
   font-size: x-large;
@@ -74,25 +74,25 @@ header {
 .inner-box {
   width: ;
   height: ;
-  border: ;
+  border-color: #E0FFFF;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background-color: ;
+  background-color: #ADD8E6;
 }
 .outer-box {
   width: ;
   height: ;
-  border: ;
+  border-color: #E0FFFF;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background-color: ;
+  background-color: #ADD8E6;
 }
 div {
-    border: 2px double #623529;
+    border: 2px double #E0FFFF;
 }
 .hiden-content {
     display: none;
