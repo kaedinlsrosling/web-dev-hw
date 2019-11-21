@@ -5,15 +5,7 @@ header {
     font-size: 12pt;
     text-align: center;
     text-transform: uppercase;
-    padding: 0.25em;
-}
-.menu-item, .site-name {
-    display: inline-block;
-    margin: 1em .2em;
-    min-width: 6em;
-    text-align: center;
-    background-color: #26272b;
-    padding: 0.5em 1em;
+    padding: ;
 }
 .menu-item a {
     color: #fff;
@@ -65,7 +57,7 @@ header {
   width: 100%;
   height: 100%;
   border: ;
-  padding: 10px;
+  padding: 20em;
   margin: 20px;
   background-color: ;
 }
@@ -80,20 +72,20 @@ header {
   font-style: ;
 }
 .inner-box {
-  width: 100%;
-  height: 50px;
+  width: ;
+  height: ;
   border: ;
-  padding: 20px;
+  padding: 10px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   background-color: ;
 }
 .outer-box {
-  width: 100%;
+  width: ;
   height: ;
   border: ;
-  padding: 20px;
+  padding: 10px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
