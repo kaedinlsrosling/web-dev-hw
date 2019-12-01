@@ -6,7 +6,7 @@
       <meta name="description" content="This is my page on my CSS website">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="./css/fonts.css">
-          <link href="https://fonts.googleapis.com/css?family=Mali|Montserrat|Sofia&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Lato|Mali|Montserrat|Sofia&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./css/menu.css">
         <link rel="stylesheet" type="text/css" href="./css/style.css">
           <title>Assignment 12</title>
@@ -19,7 +19,6 @@
       <h2>Schedule an appointment!</h2>
       <form action="http://www.example.com/subscribe.php" method="post">
        <h3>Contact Information</h3>
-        <fieldset>
           <label>First Name:<br />
             <input type="text" name="name" id="first-name" required /></label>
             <br />
@@ -31,35 +30,28 @@
             <br />
           <label>Mobile:<br />
             <input type="number" name="mobile" id="number" maxlength="10" size="10" required /></label>
-        </fieldset>
 
        <h3>Appointment Information</h3>
-        <fieldset>
-          <label><p>Type:</p>
+        <p>Type:</p>
             <input type="checkbox" name="hair" value="hair" /> Hair
             <input type="checkbox" name="nails" value="nails" /> Nails
             <input type="checkbox" name="facial" value="facial" /> Facial
+              <br />
               <select name="hair">
                 <option value="1">Cut</option>
                 <option value="2">Trim</option>
                 <option value="3">Color</option>
                 <option value="4">Highlights</option>
-              <br />
               <select name="nails">
                 <option value="1">Gel Manicure</option>
                 <option value="2">Acrylic Manicure</option>
                 <option value="3">Nail Fill</option>
                 <option value="4">Pedicure</option>
-              <br />
-              <select name="Facial">
+              <select name="facial">
                 <option value="1">Makeup</option>
                 <option value="2">Eyelashes</option>
                 <option value="3">Eyebrows</option>
                 <option value="4">Shave</option>
-
-
-
-        </fieldset>
       </form>
     </body>
 
