@@ -15,60 +15,54 @@
     <body>
       <header>
       </header>
+      <h1>Contact</h1>
+        <div class="">
+          <h2>PHONE</h2>
+          <h2>EMAIL</h2>
 
-      <div>
-        <h1>CONTACT<h1>
-      </div>
-
-      <div class="text-box">
-        <h2>PHONE</h2>
-        <h2>EMAIL</h2>
-
-      <div class="text-box">
-        <table>
-          <h2>HOURS OF OPERATION</h2>
-          <tr>
-             <th></th>
-             <th scope="col">Open</th>
-             <th scope="col">Closed</th>
-          </tr>
-          <tr>
-             <th scope="row">Sunday</th>
-             <td>10AM</td>
-             <td>5PM</td>
-          </tr>
-          <tr>
-             <th scope="row">Monday</th>
-             <td>8AM</td>
-             <td>7PM</td>
-          </tr>
-          <tr>
-             <th scope="row">Tuesday</th>
-             <td>8AM</td>
-             <td>7PM</td>
-          </tr>
-          <tr>
-             <th scope="row">Wednesday</th>
-             <td>8AM</td>
-             <td>7PM</td>
-          </tr>
-          <tr>
-             <th scope="row">Thursday</th>
-             <td>8AM</td>
-             <td>7PM</td>
-          </tr>
-          <tr>
-             <th scope="row">Friday</th>
-             <td>8AM</td>
-             <td>7PM</td>
-          </tr>
-          <tr>
-             <th scope="row">Saturday</th>
-             <td>10AM</td>
-             <td>5PM</td>
-          </tr>
-        </table>
-      </div>
+      Schedule an appointment!
+      <form action="http://www.example.com/subscribe.php" method="post">
+       <h3>Contanct Information</h3>
+        <fieldset>
+          <label>First Name:<br />
+            <input type="text" name="name" id="first-name" required /></label>
+            <br />
+          <label>Last Name:<br />
+            <input type="text" name="name" id="last-name" required /></label>
+            <br />
+          <label>Email:<br />
+            <input type="text" name="email" id="email" value="@gmail.com" required /></label>
+            <br />
+          <label>Mobile:<br />
+            <input type="number" name="mobile" id="number" maxlength="10" size="10" required /></label>
+        </fieldset>
+        
+       <h3>Appointment Information</h3>
+        <fieldset>
+          <label><p>Type:</p>
+              <br />
+            <input type="checkbox" name="hair" value="hair" /> Hair
+              <select name="hair">
+                <option value="1">Cut</option>
+                <option value="2">Trim</option>
+                <option value="3">Color</option>
+                <option value="4">Highlights</option>
+              <br />
+            <input type="checkbox" name="nails" value="nails" /> Nails
+              <select name="nails">
+                <option value="1">Gel Manicure</option>
+                <option value="2">Acrylic Manicure</option>
+                <option value="3">Nail Fill</option>
+                <option value="4">Pedicure</option>
+              <br />
+            <input type="checkbox" name="Facial" value="Facial" /> Facial
+              <select name="Facial">
+                <option value="1">Makeup</option>
+                <option value="2">Eyelashes</option>
+                <option value="3">Eyebrows</option>
+                <option value="4">Shave</option>
+        </fieldset>
+      </form>
     </body>
 
 </html>

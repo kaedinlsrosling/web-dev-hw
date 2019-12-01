@@ -5,78 +5,46 @@
 /* MENU BAR (CONTAINER): */
 menu {
   margin: 0;
-  padding: 0;
+  padding: 1em;
   background-color: Peru;
 }
+
 /* TOP-LEVEL LINKS: */
 #navigation {
-
-}
-#site-links {
 
 }
 #site-links .menu-item {
   width: 6em;
   padding: .5em 1em;
+  display: inline-block;
   background-color: rgb(205, 133, 63, 0.5);
-
+  text-align: center;
+  color: White;
 }
-
-/*DROPDOWN: */
-.sister-site {
-
+#site-links .menu-item:hover {
+  color: PeachPuff;
+  background-color: PaleVioletRed;
+  text-decoration: underline overline;
+  text-decoration-color: Peru;
+  text-decoration-style: dotted;
+}
+/* DROPDOWN: */
+#site-links .sister-site {
+  width: 6em;
+  padding: .5em 1em;
+  display: default;
+  position: absolute;
+  margin: ;
+  color: White;
+  background-color: PaleVioletRed;
+  z-index: 1;
+}
+#site-links .sister-site:hover {
+  color: PaleVioletRed;
+  background-color: Peru;
 }
 
 /* SOCIAL MEDIA ACCOUNTS: */
 #social-links {
 
-}
-.site-logo {
-
-}
-#site-title {
-
-}
-#site-slogan {
-
-}
-
-.menu-item {
-  display: inline-block;
-  margin: 1em .2em;
-  min-width: 6em;
-  text-align: center;
-  background-color: #8B0000;
-  padding: 0.5em 1em;
-  color: #fff;
-}
-.menu-item:hover {
-  background-color: #fff;
-  color: #8B0000;
-}
-.dropdown {
-  display: inline-block;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  border: 1px solid #000;
-  margin: ;
-  color: #fff;
-  background-color: #8B0000;
-  z-index: 1;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.dropdown-item {
-  display: block;
-  text-align: center;
-  margin: 0;
-  padding: 0.5em 1em 0.5em 1em;
-  min-width: 5.9em;
-}
-.dropdown-item:hover {
-  color: #8B0000;
-  background-color: #fff;
 }

@@ -2,64 +2,120 @@
 | CSS for General Styling |
 -------------------------*/
 
-/* SITE-WIDE ELEMENTS: */
-h1 {
-  font-size: ;
-  font-family: 'Sofia', cursive;
-  color: PaleVioletRed;
-}
-h2 {
-  font-size: ;
-  font-family:'Montserrat', sans-serif;
-  color: ;
-}
-h3 {
-  font-size: ;
-  font-family: 'Mali', cursive;
-  color: ;
-}
+  /* SITE-WIDE ELEMENTS: */
+    h1 {
+      font-size: ;
+      font-family: 'Sofia', cursive;
+      color: PaleVioletRed;
+    }
+    h2 {
+      font-size: ;
+      font-family:'Montserrat', sans-serif;
+      color: ;
+    }
+    h3 {
+      font-size: ;
+      font-family: 'Mali', cursive;
+      color: ;
+    }
 
 PeachPuff
 Peru
+    /* Site information: */
+      .site-heading {
+        width: 50%;
+        margin: 4em auto;
+        padding: 30px;
+        position: relative;
+        z-index: 1;
+        border: 5px double Peru;
+        text-align: center;
+        }
+        .site-logo {
 
-header {
-  position: fixed;
-  top: 0px;
-  background-color: #fff;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  margin-top: 0;
-  height: 4em;
-  width: 100%;
-  text-align: right;
-}
+        }
+        #site-title {
+          margin: .5em;
+          line-height: 1em;
+          font-size: 3em;
+        }
+        #site-slogan {
+          font-size: 1em;
+          letter-spacing: 1px;
+          color: Peru;
+        }
 
-/* LAYOUT AREAS: */
-main-container{
-  margin-top: 5em;
-  padding: 1em;
-  line-height: 1.4em;
-  background-color: #fff;
-}
-.text-box {
-  margin-top: 5em;
-  padding: 1em;
-  line-height: 1.4em;
-  background-color: #8FBC8F ;
-  color: #fff
-}
+  /* LAYOUT AREAS: */
+    .main-content {
+      font-family:'Mali', cursive;
+      font-size: .5em;
+      color: ;
+      line-height: ;
+      text-align: center;
+      padding: 10pt;
+      background-color: #ec3642;
+    }
+
+    main-container{
+      margin-top: 5em;
+      padding: 1em;
+      line-height: 1.4em;
+      background-color: #fff;
+    }
+    .text-box {
+      margin-top: 5em;
+      padding: 1em;
+      line-height: 1.4em;
+      background-color: #8FBC8F ;
+      color: #fff
+    }
 
 
 
-.img-left {
-  float: left;
+    .img-left {
+      float: left;
+    }
+    .img-center {
+      float: center;
+    }
+    .img-right {
+      float: right;
+    }
+    .text-left {
+      align: left;
+    }
+    .text-center {
+      align: center;
+    }
+    .text-right {
+      align: right;
+    }
+
+  /* Submit Buttons */
+    .button:active {
+      color: white;
+      background-color: PaleVioletRed;
+      border-color: Peru;
+      border-width: 5px;
+      border-style: double solid;
+    }
+    .button:hover {
+      color: white;
+      background-color: Peru;
+      border-color: PaleVioletRed;
+      border-width: 5px;
+      border-style: double solid;
+    }
+
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
-.img-right {
-  float: right;
-}
-.text-left {
-  align: left;
-}
-.text-right {
-  align: right;
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
