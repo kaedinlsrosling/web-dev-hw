@@ -1,3 +1,7 @@
+/*-------------------------
+| CSS for Font Styling |
+-------------------------*/
+
 @font-face {
 font-family: 'Sofia', cursive;
 src: url('../fonts/Sofia-Regular.ttf') format('opentype');
