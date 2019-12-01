@@ -80,6 +80,10 @@
       text-align:left;
       border: 5px dotted White;
     }
+    fieldset {
+      width: 50%;
+      align: center;
+    }
 
   /* Submit Buttons */
     .button:active {

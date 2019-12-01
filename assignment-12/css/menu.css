@@ -4,15 +4,13 @@
 
 /* MENU BAR (CONTAINER): */
 menu {
+  position: fixed;
   margin: 0;
   padding: 1em;
   background-color: Peru;
 }
 
 /* TOP-LEVEL LINKS: */
-#navigation {
-
-}
 #site-links .menu-item {
   width: 6em;
   padding: .5em 1em;
@@ -28,11 +26,12 @@ menu {
   text-decoration-color: Peru;
   text-decoration-style: dotted;
 }
+
 /* DROPDOWN: */
-#site-links .sister-site {
+#site-links .dropdown-item {
   width: 6em;
   padding: .5em 1em;
-  display: default;
+  display: block;
   position: absolute;
   margin: ;
   color: White;
@@ -42,9 +41,4 @@ menu {
 #site-links .sister-site:hover {
   color: PaleVioletRed;
   background-color: Peru;
-}
-
-/* SOCIAL MEDIA ACCOUNTS: */
-#social-links {
-
 }
