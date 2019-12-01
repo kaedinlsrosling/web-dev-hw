@@ -15,14 +15,10 @@
     <body>
       <header>
       </header>
-      <h1>Contact</h1>
-        <div class="">
-          <h2>PHONE</h2>
-          <h2>EMAIL</h2>
 
-      Schedule an appointment!
+      <h2>Schedule an appointment!</h2>
       <form action="http://www.example.com/subscribe.php" method="post">
-       <h3>Contanct Information</h3>
+       <h3>Contact Information</h3>
         <fieldset>
           <label>First Name:<br />
             <input type="text" name="name" id="first-name" required /></label>
@@ -36,31 +32,33 @@
           <label>Mobile:<br />
             <input type="number" name="mobile" id="number" maxlength="10" size="10" required /></label>
         </fieldset>
-        
+
        <h3>Appointment Information</h3>
         <fieldset>
           <label><p>Type:</p>
-              <br />
             <input type="checkbox" name="hair" value="hair" /> Hair
+            <input type="checkbox" name="nails" value="nails" /> Nails
+            <input type="checkbox" name="facial" value="facial" /> Facial
               <select name="hair">
                 <option value="1">Cut</option>
                 <option value="2">Trim</option>
                 <option value="3">Color</option>
                 <option value="4">Highlights</option>
               <br />
-            <input type="checkbox" name="nails" value="nails" /> Nails
               <select name="nails">
                 <option value="1">Gel Manicure</option>
                 <option value="2">Acrylic Manicure</option>
                 <option value="3">Nail Fill</option>
                 <option value="4">Pedicure</option>
               <br />
-            <input type="checkbox" name="Facial" value="Facial" /> Facial
               <select name="Facial">
                 <option value="1">Makeup</option>
                 <option value="2">Eyelashes</option>
                 <option value="3">Eyebrows</option>
                 <option value="4">Shave</option>
+
+
+
         </fieldset>
       </form>
     </body>
