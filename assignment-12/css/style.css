@@ -1,69 +1,85 @@
-header-1{
-    position: fixed;
-    background-color: #8B0000;
+h1 {
+  font-size: ;
+  font-family: serif;
+  text-transform: uppercase;
+  color: #483D8B;
 }
-header-2{
-    position: fixed;
-    background-color: #fff;
-    font-family: sans-serif;
-    font-size: 12pt;
-    text-align: right;
-    text-transform: uppercase;
-    padding: ;
+h2 {
+  font-size: ;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: ;
 }
-.menu-item a {
-    color: #8B0000;
+header-1 {
+  position: fixed;
+  background-color: #8B0000;
+}
+header-2 {
+  position: fixed;
+  top: 0px;
+  background-color: #fff;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-top: 0;
+  height: 4em;
+  width: 100%;
+  text-align: right;
+}
+.menu-item {
+  display: inline-block;
+  margin: 1em .2em;
+  min-width: 6em;
+  text-align: center;
+  background-color: #8B0000;
+  padding: 0.5em 1em;
+  color: #fff;
 }
 .menu-item:hover {
-    background-color: #fff;
-    color: #8B0000;
+  background-color: #fff;
+  color: #8B0000;
 }
 .dropdown {
-    display: inline-block;
+  display: inline-block;
 }
 .dropdown-content {
-    display: none;
-    position: absolute;
-    border: 1px solid #000;
-    margin: ;
-    color: #fff;
-    background-color: #8B0000;
-    z-index: 1;
+  display: none;
+  position: absolute;
+  border: 1px solid #000;
+  margin: ;
+  color: #fff;
+  background-color: #8B0000;
+  z-index: 1;
 }
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 .dropdown-item {
-    display: block;
-    text-align: center;
-    margin: ;
-    padding: ;
-    min-width: ;
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 0.5em 1em 0.5em 1em;
+  min-width: 5.9em;
 }
-.dropdown-item:hover{
-    color: #8B0000;
-    background-color: #fff;
-}
-main-container{
-  width: ;
-  height: ;
-  border: ;
-  padding: ;
-  margin: ;
+.dropdown-item:hover {
+  color: #8B0000;
   background-color: #fff;
 }
-.text-box{
-  width: ;
-  height: ;
-  border: ;
-  padding: ;
-  margin: ;
+main-container{
+  margin-top: 5em;
+  padding: 1em;
+  line-height: 1.4em;
+  background-color: #fff;
+}
+.text-box {
+  margin-top: 5em;
+  padding: 1em;
+  line-height: 1.4em;
   background-color: #8FBC8F ;
   color: #fff
 }
-.img-left{
+.img-left {
   float: left;
 }
-.img-right{
+.img-right {
   float: right;
 }
