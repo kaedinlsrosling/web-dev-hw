@@ -18,9 +18,10 @@
       text-transform: uppercase;
     }
     h3 {
-      font-size: ;
+      font-size: 20pt;
       font-family: 'Mali', cursive;
-      color: ;
+      letter-spacing: 1px;
+      color: Peru;
 
     /* Site information: */
       .site-heading {
