@@ -4,10 +4,12 @@
 
 /* MENU BAR (CONTAINER): */
 menu {
+  width: 100%;
   position: fixed;
   margin: 0;
   padding: 1em;
   background-color: Peru;
+  text-align: center;
 }
 
 /* TOP-LEVEL LINKS: */
@@ -25,20 +27,34 @@ menu {
   text-decoration: underline overline;
   text-decoration-color: Peru;
   text-decoration-style: dotted;
+  text-align: center;
 }
 
 /* DROPDOWN: */
-#site-links .dropdown-item {
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: ;
+    margin: 0;
+    margin-top: 0.5em;
+    color: ;
+    background-color: PaleVioletRed;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-item {
   width: 6em;
   padding: .5em 1em;
-  display: block;
+  display: inline-block;
   position: absolute;
   margin: ;
   color: White;
   background-color: PaleVioletRed;
   z-index: 1;
 }
-#site-links .sister-site:hover {
+.dropdown-item:hover {
   color: PaleVioletRed;
   background-color: Peru;
 }
