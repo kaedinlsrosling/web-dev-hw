@@ -35,7 +35,9 @@
         #site-title {
           background-color: PeachPuff;
           border: 5px double White;
-          margin: .5em;
+          margin: ;
+          padding: 2em;
+          text-align: center;
         }
         #site-slogan {
           text-transform: uppercase;
@@ -44,6 +46,7 @@
           color: Peru;
           margin: .5em;
           padding: 30px;
+          text-align: center;
         }
 
   /* LAYOUT AREAS: */
@@ -58,6 +61,7 @@
       font-family: 'Lato', sans-serif;
       padding: 10pt;
       color:PeachPuff;
+      text-align: center;
     }
     .img-left {
       float: left;
