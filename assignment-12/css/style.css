@@ -25,6 +25,12 @@
       letter-spacing: 1px;
       color: Peru;
     }
+    h4 {
+      font-size: 40pt;
+      font-family:'Montserrat', sans-serif;
+      color: ;
+      text-transform: uppercase;
+    }
     /* Site information: */
       .site-heading {
         text-align: center;
@@ -36,7 +42,7 @@
         }
         #site-title {
           margin: ;
-          padding: 10px;
+          padding: ;
           text-align: center;
         }
         #site-slogan {
@@ -45,7 +51,7 @@
           letter-spacing: 1px;
           color: Peru;
           margin: ;
-          padding: 10px;
+          padding: ;
           text-align: center;
         }
 
@@ -81,18 +87,6 @@
       border-color: PaleVioletRed;
       border-width: 5px;
       border-style: double solid;
-    }
-    input {
-      width: 50%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      box-sizing: border-box;
-    }
-    input {
-      width: 50%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      box-sizing: border-box;
     }
     sub-container{
       margin-top: 5em;
