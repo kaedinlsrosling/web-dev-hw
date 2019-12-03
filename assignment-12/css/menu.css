@@ -41,9 +41,13 @@ menu {
     background-color: PaleVioletRed;
 }
 .dropdown:hover .dropdown-content {
-    display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: inline-block;
 }
 .dropdown-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
   width: 6em;
   padding: .5em 1em;
   display: inline-block;
@@ -54,6 +58,8 @@ menu {
   z-index: 1;
 }
 .dropdown-item:hover {
+  padding-top: 5px;
+  padding-bottom: 5px;
   color: PaleVioletRed;
   background-color: Peru;
 }
