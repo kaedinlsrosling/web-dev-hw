@@ -24,20 +24,19 @@
       font-family: 'Mali', cursive;
       letter-spacing: 1px;
       color: Peru;
-
+    }
     /* Site information: */
       .site-heading {
         text-align: center;
+        border: 5px double White;
       }
         .site-logo {
           align-items: center;
           border: 5px solid Peru
         }
         #site-title {
-          background-color: PeachPuff;
-          border: 5px double White;
           margin: ;
-          padding: 2em;
+          padding: 10px;
           text-align: center;
         }
         #site-slogan {
@@ -45,8 +44,8 @@
           font-size: 1.5em;
           letter-spacing: 1px;
           color: Peru;
-          margin: .5em;
-          padding: 30px;
+          margin: ;
+          padding: 10px;
           text-align: center;
         }
 
@@ -63,24 +62,6 @@
       padding: 10pt;
       color:PeachPuff;
       text-align: center;
-    }
-    .img-left {
-      float: left;
-    }
-    .img-center {
-      float: center;
-    }
-    .img-right {
-      float: right;
-    }
-    .text-left {
-      align: left;
-    }
-    .text-center {
-      align: center;
-    }
-    .text-right {
-      align: right;
     }
     .subtitle {
       text-align:left;
@@ -119,4 +100,26 @@
       line-height: 1.4em;
       background-color: PeachPuff;
       color: white;
+    }
+  /* IMAGES */
+    img {
+      border: 5 px solid Peru;
+    }
+    .img-left {
+      float: left;
+    }
+    .img-center {
+      float: center;
+    }
+    .img-right {
+      float: right;
+    }
+    .text-left {
+      align: left;
+    }
+    .text-center {
+      align: center;
+    }
+    .text-right {
+      align: right;
     }
