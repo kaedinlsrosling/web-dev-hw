@@ -98,9 +98,6 @@
       color: white;
     }
   /* IMAGES */
-    img {
-      border: 5 px solid Peru;
-    }
     .img-left {
       float: left;
     }
