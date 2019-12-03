@@ -32,17 +32,15 @@ menu {
 
 /* DROPDOWN: */
 .dropdown-content {
-    display: none;
+    display: inline-block;
     position: absolute;
     border: ;
     margin: 0;
-    margin-top: 0.5em;
     color: ;
     background-color: PaleVioletRed;
-    z-index: 1;
 }
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: inline-block;
 }
 .dropdown-item {
   width: 6em;
