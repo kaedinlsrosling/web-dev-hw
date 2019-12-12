@@ -10,6 +10,9 @@ header {
     width: 100%;
     text-align: right;
 }
+menu{
+  background-color: white;
+}
 
 /* Set the layout of the menu: */
 .menu-item, .site-name {
@@ -17,18 +20,18 @@ header {
     margin: 1em .2em;
     min-width: 6em;
     text-align: center;
-    background-color: #;
+    background-color: white;
     padding: 0.5em 1em;
 }
 
 /* Style the links: */
 .menu-item a {
-    color: #;
+    color: rosybrown;
     text-decoration: none;
 }
 
 .menu-item:hover {
-    background-color: #;
+    color: lightcoral;
 }
 /* Add a dropdown feature: */
 .dropdown {
@@ -38,14 +41,14 @@ header {
 .dropdown-content {
     display: none;
     position: absolute;
-    border: 1px solid #;
+    border: 1px solid;
     margin: 0.5em 0 0 -1em;
-    color: #;
-    background-color: #;
+    color: rosybrown;
+    background-color: white;
     z-index: 1;
 }
 .dropdown-content a {
-    color: #;
+    color: rosybrown;
 }
 
 .dropdown:hover .dropdown-content {
@@ -62,6 +65,6 @@ header {
 }
 
 .dropdown-item:hover, .dropdown-item:hover a {
-    color: #;
-    background-color: #;
+    color: lightcoral;
+    background-color: ;
 }
