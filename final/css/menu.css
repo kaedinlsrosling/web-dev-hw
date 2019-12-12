@@ -1,0 +1,67 @@
+/* Set your header design: */
+header {
+    position: fixed;
+    top: 0px;
+    background-color: #;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-top: 0;
+    height: 4em;
+    width: 100%;
+    text-align: right;
+}
+
+/* Set the layout of the menu: */
+.menu-item, .site-name {
+    display: inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: center;
+    background-color: #;
+    padding: 0.5em 1em;
+}
+
+/* Style the links: */
+.menu-item a {
+    color: #;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #;
+}
+/* Add a dropdown feature: */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px solid #;
+    margin: 0.5em 0 0 -1em;
+    color: #;
+    background-color: #;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style dropdown item display: */
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: #;
+    background-color: #;
+}

@@ -1,0 +1,38 @@
+/* Style the page: */
+body {
+    font-size: 16pt;
+    margin: 0;
+    padding: 0;
+    background-color: #;
+}
+/* Style the Main Content: */
+h1{
+
+}
+h2{
+
+}
+.site-name {
+    align: center;
+    padding: 1em;
+    color: #;
+}
+.slogan{
+
+}
+.site-brand {
+   margin-bottom: 2em;
+   text-align: center;
+   font-size: 150%;
+}
+.title{
+
+}
+.subtitle{
+
+}
+.main-container {
+    margin-top: 5em;
+    padding: 1em;
+    line-height: 1.4em;
+}
