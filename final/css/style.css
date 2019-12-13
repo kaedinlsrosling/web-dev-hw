@@ -30,6 +30,7 @@ h3  {
 .site-name {
     float: center;
     padding: 1em;
+    align: center;
 }
 .site-slogan {
   align: center;
