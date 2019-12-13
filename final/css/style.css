@@ -33,6 +33,16 @@ h4 {
   text-transform: uppercase;
 }
 /* Style the Main Content: */
+.title {
+  font-family: Grand Hotel;
+  color: #d96459;
+  font-size: 48pt;
+}
+.subtitle {
+  font-family: Calistoga;
+  color: #e06377;;
+  font-size: 32pt;
+}
 .site-name {
     float: center;
     padding: 1em;
