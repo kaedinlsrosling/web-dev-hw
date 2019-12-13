@@ -27,6 +27,11 @@ h3  {
   color: #faffc6;
   align: center;
 }
+h4 {
+  font-family: Quicksand;
+  font-size: 40pt;
+  text-transform: uppercase;
+}
 /* Style the Main Content: */
 .site-name {
     float: center;
