@@ -10,10 +10,8 @@ header {
     width: 100%;
     text-align: right;
 }
-home-menu .menu-item{
+menu{
   width: 100%;
-  margin: ;
-  padding: ;
   position: fixed;
   background-color: white;
 }
