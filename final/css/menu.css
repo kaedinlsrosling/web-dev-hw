@@ -6,7 +6,7 @@ menu {
     font-family: AmaticSC;
     text-transform: uppercase;
     margin-top: 0;
-    height: 20px;
+    height: auto;
     width: 100%;
     text-align: right;
 }
