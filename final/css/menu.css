@@ -20,11 +20,11 @@ menu{
 /* Set the layout of the menu: */
 .menu-item, .site-name {
     display: inline-block;
-    margin: 1em .2em;
-    min-width: 6em;
+    margin: ;
+    min-width: ;
     text-align: center;
     background-color: white;
-    padding: 0.5em 1em;
+    padding: ;
 }
 
 /* Style the links: */
