@@ -26,7 +26,7 @@ menu {
 /* Style the links: */
 .menu-item a {
     color: rosybrown;
-    text-decoration: none;
+    text-decoration: underline solid 2px #588c7e;
 }
 
 .menu-item:hover {
