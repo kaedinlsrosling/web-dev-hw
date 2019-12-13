@@ -40,7 +40,12 @@ h3  {
   height: 3em;
   float: left;
 }
+.parent-container {
+  width: 100%;
+  background-color: lightcoral
+}
 .main-container {
+    width: 75%;
     margin-top: 5em;
     padding: 1em;
     line-height: 1.4em;
