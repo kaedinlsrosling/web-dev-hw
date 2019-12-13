@@ -8,7 +8,7 @@ body {
 }
 /* Style the Main Content: */
 h1{
-  font-family: GrandHotelRegular;
+  font-family: GrandHotel;
   font-size: 72pt;
   color: #d96459;
   text-align: center;
@@ -30,7 +30,7 @@ h3{
   margin: 0.2em;
 }
 .site-name {
-    font-family: GrandHotelRegular;
+    font-family: GrandHotel;
     font-size: 72pt;
     align: center;
     padding: 1em;
