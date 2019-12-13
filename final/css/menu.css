@@ -8,7 +8,7 @@ menu {
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 0;
-    height: auto;
+    height: 50px;
     width: 100%;
     text-align: right;
 }
@@ -17,7 +17,7 @@ menu {
 .menu-item, .site-name {
     display: inline-block;
     margin: 1em .2em;
-    min-width: 6em;
+    min-width: ;
     text-align: center;
     background-color: ;
     padding: 0.5em 1em;
