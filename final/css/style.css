@@ -1,55 +1,44 @@
 /* Style the page: */
 body {
   font-family: Quicksand;
-    font-size: 16pt;
+  font-size: 16pt;
+  color: #744b29;
     margin: 0;
     padding: 0;
     background-color: lightcoral;
 }
-/* Style the Main Content: */
-h1{
+/* Style the Headings */
+h1 {
   font-family: GrandHotel;
-  font-size: 72pt;
+  font-size: 60pt;
   color: #d96459;
-  text-align: center;
-  margin: 0.2em;
-}
-h2{
-  font-family: AmaticSC;
-  font-size: 54pt;
-  color: #d96459;
-  text-align: center;
-  margin: 0.2em;
-  text-transform: uppercase;
-}
-h3{
-  font-family: Calistoga;
-  font-size: 48pt;
-  color: #faffc6;
-  text-align: center;
-  margin: 0.2em;
-}
-.site-name {
-    font-family: GrandHotel;
-    font-size: 72pt;
-    align: center;
-    padding: 1em;
-    color: #;
-}
-.slogan{
-
-}
-.title{
-  font-family: GrandHotelRegular;
-  font-size: 48pt;
-  align: left;
-}
-.subtitle{
-  font-family: AmaticSC;
-  font-size: 30pt;
   align: center;
+}
+h2 {
+  font-family: AmaticSC;
+  font-size: 48pt;
+  color: #d96459;
+  align: center;
+}
+h3  {
+  font-family: Calistoga;
+  font-size: 32pt;
+  color: #faffc6;
+  align: center;
+}
+/* Style the Main Content: */
+.site-name {
+    float: center;
+    padding: 1em;
+}
+.site-slogan {
+  align: center;
+}
+.site-logo {
+  float: left;
 }
 .main-container {
     margin-top: 5em;
     padding: 1em;
     line-height: 1.4em;
+}

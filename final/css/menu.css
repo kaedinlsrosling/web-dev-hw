@@ -1,41 +1,37 @@
 /* Set your header design: */
-header {
+menu {
     position: fixed;
     top: 0px;
-    background-color: #;
-    font-family: sans-serif;
+    background-color: white;
+    font-family: AmaticSC;
     text-transform: uppercase;
     margin-top: 0;
     height: 4em;
     width: 100%;
     text-align: right;
 }
-menu{
-  width: 100%;
-  position: fixed;
-  background-color: white;
-}
 
 /* Set the layout of the menu: */
 .menu-item, .site-name {
     display: inline-block;
-    margin: ;
-    min-width: ;
+    margin: 1em .2em;
+    min-width: 6em;
     text-align: center;
-    background-color: white;
-    padding: ;
+    background-color: ;
+    padding: 0.5em 1em;
 }
 
 /* Style the links: */
 .menu-item a {
     color: rosybrown;
     text-decoration: none;
-    margin: 2px;
 }
 
 .menu-item:hover {
-    color: lightcoral;
+    color: #e06377;
+    background-color: white;
 }
+
 /* Add a dropdown feature: */
 .dropdown {
     display: inline-block;
@@ -44,7 +40,7 @@ menu{
 .dropdown-content {
     display: none;
     position: absolute;
-    border: 1px solid;
+    border: 1px solid #000;
     margin: 0.5em 0 0 -1em;
     color: rosybrown;
     background-color: white;
@@ -68,6 +64,6 @@ menu{
 }
 
 .dropdown-item:hover, .dropdown-item:hover a {
-    color: lightcoral;
-    background-color: ;
+    color: #e06377;
+    background-color: #b08453;
 }
