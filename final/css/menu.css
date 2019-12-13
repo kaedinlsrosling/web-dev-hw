@@ -3,7 +3,7 @@ menu {
     position: fixed;
     top: 0px;
     background-color: white;
-    font-family: AmaticSC;
+    font-family: Amatic SC;
     text-transform: uppercase;
     margin-top: 0;
     height: auto;
@@ -30,6 +30,7 @@ menu {
 .menu-item:hover {
     color: #e06377;
     background-color: ;
+    font-weight: bold;
 }
 
 /* Add a dropdown feature: */
@@ -65,5 +66,6 @@ menu {
 
 .dropdown-item:hover, .dropdown-item:hover a {
     color: #e06377;
+    font-weight: bold;
     background-color: #b08453;
 }
