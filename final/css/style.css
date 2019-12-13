@@ -51,8 +51,9 @@ h4 {
 }
 .main-container {
     width: 75%;
+    align-items: center;
     margin-top: 10em;
     padding: 2em;
     line-height: 1.4em;
-    background-color: #faffc6;
+    background-color: white;
 }
