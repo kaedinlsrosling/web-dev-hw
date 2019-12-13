@@ -1,5 +1,6 @@
 /* Style the page: */
 body {
+  font-family: Quicksand;
     font-size: 16pt;
     margin: 0;
     padding: 0;
@@ -7,16 +8,24 @@ body {
 }
 /* Style the Main Content: */
 h1{
-  font-family: sans-serif;
+  font-family: GrandHotelRegular;
   font-size: 2em;
-  color: #000;
+  color: #d96459;
   text-align: center;
   margin: 0.2em;
 }
 h2{
-  font-family: sans-serif;
-  font-size: 2em;
-  color: #000;
+  font-family: AmaticSC;
+  font-size: 1em;
+  color: #e06377;
+  text-align: center;
+  margin: 0.2em;
+  text-transform: uppercase;
+}
+h3{
+  font-family: Calistoga;
+  font-size: 0.75em;
+  color: #faffc6;
   text-align: center;
   margin: 0.2em;
 }
@@ -34,7 +43,8 @@ h2{
    font-size: 150%;
 }
 .title{
-
+  font-family: AmaticSC;
+  font-size:
 }
 .subtitle{
 
