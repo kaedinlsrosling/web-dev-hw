@@ -16,7 +16,7 @@ h1{
 }
 h2{
   font-family: AmaticSC;
-  font-size: 60pt;
+  font-size: 54pt;
   color: #e06377;
   text-align: center;
   margin: 0.2em;
@@ -30,6 +30,8 @@ h3{
   margin: 0.2em;
 }
 .site-name {
+    font-family: GrandHotelRegular;
+    font-size: 72pt;
     align: center;
     padding: 1em;
     color: #;
@@ -37,17 +39,15 @@ h3{
 .slogan{
 
 }
-.site-brand {
-   margin-bottom: 2em;
-   text-align: center;
-   font-size: 150%;
-}
 .title{
-  font-family: AmaticSC;
-  font-size:
+  font-family: GrandHotelRegular;
+  font-size: 48pt;
+  align: left;
 }
 .subtitle{
-
+  font-family: AmaticSC;
+  font-size: 30pt;
+  align: center;
 }
 .main-container {
     margin-top: 5em;
